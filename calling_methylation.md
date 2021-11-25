@@ -1,3 +1,5 @@
+<h1>Steps used to call methylation from bisulfite-seq reads
+
 1: Trim reads using trim_galore
 
     trim_galore --paired -o ../trimmed_reads/ --clip_r1 8 --clip_r2 8 --three_prime_clip_r1 8 --three_prime_clip_r2 8 1A_S9_R1_001.fastq.gz 1A_S9_R2_001.fastq.gz

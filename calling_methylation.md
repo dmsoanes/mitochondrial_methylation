@@ -1,4 +1,4 @@
-<h1>Steps used to call methylation from bisulfite-seq reads
+<h1>Steps used to call methylation from bisulfite-seq reads</h1>
 
 1: Trim reads using trim_galore
 

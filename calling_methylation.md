@@ -1,4 +1,4 @@
-<h1>Calling mitochindrial methylation from bisulfite-seq reads</h1>
+<h1>Calling mitochondrial methylation from bisulfite-seq reads</h1>
 <h3>Software used:</h3>
 <b>Trim Galore! (v0.6.4):</b> https://github.com/FelixKrueger/TrimGalore <br>
 <b>Bismark (v0.23.1):</b> https://github.com/FelixKrueger/Bismark <br><br>

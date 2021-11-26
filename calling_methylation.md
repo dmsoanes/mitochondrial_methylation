@@ -2,8 +2,11 @@
 <h3>Software used:</h3>
 <b>Trim Galore! (v0.6.4):</b> https://github.com/FelixKrueger/TrimGalore <br>
 <b>Bismark (v0.23.1):</b> https://github.com/FelixKrueger/Bismark <br><br>
+<h3>Genome Reference:</h3>
+GRCh38 primary assembly: https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_38/GRCh38.primary_assembly.genome.fa.gz<br><br>
+<h3>Analysis steps starting with raw illumina reads:</h3><br>
 
-1: Trim reads using trim_galore
+1: Trim reads using trim_galore (remove adaptor sequence, low quality bases and 8bp from 5' and 3' ends)
 
     trim_galore --paired -o ../trimmed_reads/ --clip_r1 8 --clip_r2 8 --three_prime_clip_r1 8 --three_prime_clip_r2 8 1A_S9_R1_001.fastq.gz 1A_S9_R2_001.fastq.gz
 

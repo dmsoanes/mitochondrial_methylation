@@ -1,4 +1,4 @@
-<h1>Using mixed effect model to look at linkage between co-variates and methylation</h1>
+<h1>Using mixed-effect model to look at linkage between co-variates and methylation</h1>
 
 <b>R package:</b> lme4 https://cran.r-project.org/web/packages/lme4/index.html<br><br>
 

@@ -22,4 +22,4 @@ GRCh38 primary assembly: https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_hum
 
     bismark_methylation_extractor --gzip --bedGraph --cutoff 10 --CX --buffer_size 30G --cytosine_report --genome_folder ~/Documents/human_reference/GRCh38_bismark --split_by_chromosome -o output 1A_S9_R1_001_val_1_bismark_bt2_pe.deduplicated.bam
 
-This produces a genome-wide cytosine report at both CpG and non-CpG positions for each chromosome. I then copied the mitochondrial genome reports into a separate folder containing the perl script cytosine_stats.pl. Running this script calculates the percentage methylation and coverage at each cytosine for all the files in the directory.
+This produces a genome-wide cytosine report at both CpG and non-CpG positions for each chromosome. I then copied the mitochondrial genome reports into a separate folder containing the perl script [cytosine_stats.pl](cytosine_stats.pl). Running this script calculates the percentage methylation and coverage at each cytosine for all the files in the directory.

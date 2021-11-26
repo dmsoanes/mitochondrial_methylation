@@ -14,7 +14,7 @@ GRCh38 primary assembly: https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_hum
 
     bismark --genome ~/Documents/human_reference/GRCh38_bismark -1 1A_S9_R1_001_val_1.fq.gz -2 1A_S9_R2_001_val_2.fq.gz -I 0 -X 2000 --score_min L,0,-0.8 -o ../bismark
 
-3: De-duplicating Bismark alignment BAM file
+3: De-duplicate Bismark alignment BAM file
 
     deduplicate_bismark --bam 1A_S9_R1_001_val_1_bismark_bt2_pe.bam
 

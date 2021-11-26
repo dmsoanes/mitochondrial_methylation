@@ -1,7 +1,7 @@
 <h1>Steps used to call methylation from bisulfite-seq reads</h1>
 <h3>Software used:</h3>
-Trim Galore! (v0.6.4): https://github.com/FelixKrueger/TrimGalore <br>
-Bismark (v0.23.1): https://github.com/FelixKrueger/Bismark
+<b>Trim Galore! (v0.6.4):</b> https://github.com/FelixKrueger/TrimGalore <br>
+<b>Bismark (v0.23.1):</b> https://github.com/FelixKrueger/Bismark <br>
 
 1: Trim reads using trim_galore
 
